@@ -81,8 +81,7 @@ public class Car extends Vehicle {
         this.seats = seats;
     }
 
-    @Override
-    public int getCurrentDirection() {
-        return super.getCurrentDirection();
+    public int getCurrentGear() {
+        return currentGear;
     }
 }
