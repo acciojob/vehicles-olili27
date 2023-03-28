@@ -80,4 +80,9 @@ public class Car extends Vehicle {
     public void setSeats(int seats) {
         this.seats = seats;
     }
+
+    @Override
+    public int getCurrentDirection() {
+        return super.getCurrentDirection();
+    }
 }
